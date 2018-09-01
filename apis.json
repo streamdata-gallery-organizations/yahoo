@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Yahoo",
+	"description": "This is a repository of yahoo APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/yahoo.png",
+	"created": "2018-02-24",
+	"modified": "2018-09-01",
+	"url": "http://yahoo.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Yahoo",
+			"x-api-slug": "yahoo",
+			"description": "News, email and search are just the beginning. Discover more every day. Find your yodel.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.jpg",
+			"humanURL": "http://www.yahoo.com",
+			"baseURL": "https://weather.yahooapis.com//",
+			"tags": "Yahoo",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/yahoo/master/_listings/yahoo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Yahoo",
+	"include": [
+		{
+			"name": "Yahoo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/yahoo/master/_listings/yahoo/apis.yaml"
+		}
+	]
+}

@@ -7,41 +7,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.
 x-kinRank: "9"
 x-alexaRank: "7"
 tags: Yahoo
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-09-01"
+modified: "2018-09-01"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/yahoo/master/_listings/yahoo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: 'Yahoo Weather '
-  x-api-slug: yahoo-weather
+- name: 'Yahoo Weather - '
+  x-api-slug: forecastrss-get
   description: Retrieves weather information for a location.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.jpg
   humanURL: http://www.yahoo.com
-  baseURL: https://weather.yahooapis.com////forecastrss
-  tags: ~
+  baseURL: https://weather.yahooapis.com//
+  tags: Search, Stack Network, internet, Technology, Photos, General Data, Relative
+    Data, Service API, Locations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/yahoo/master/_listings/yahoo/forecastrss-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/yahoo/master/_listings/yahoo/forecastrss-get-openapi.md
-- name: Yahoo Weather
-  x-api-slug: yahoo-weather
-  description: The Weather RSS feed enables you to get up-to-date weather information
-    for your location. You can save this feed in My Yahoo! or your favorite feed aggregator,
-    or incorporate the RSS data into your own web site or client application. The
-    Weather RSS feed is a dynamically-generated feed based on WOEID.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.jpg
-  humanURL: http://www.yahoo.com
-  baseURL: https://weather.yahooapis.com//
-  tags: Yahoo
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/yahoo/master/_listings/yahoo/openapi.md
 x-common:
 - type: x-website
   url: http://www.yahoo.com
 - type: x-advertising
   url: https://developer.yahoo.com/everything.html#groupAdvertise
+- type: x-api-gallery
+  url: http://xignite.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://yahoo.stack.network
 - type: x-application-management
   url: https://developer.apps.yahoo.com/
 - type: x-blog
